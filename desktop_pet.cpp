@@ -151,7 +151,7 @@ DesktopPet::DesktopPet(QWidget *parent)
             this, &DesktopPet::onWeatherReplyFinished);
 
     // ⚠️ 请替换为你的 OpenWeatherMap API Key
-    m_apiKey = "7b2b160e0d0939c698c2d43650fbeb79";
+    m_apiKey = "";
 
     loadRoles();
     setupUI();
